@@ -3,7 +3,7 @@ dependencies:
   version: 2.1.1
   repository: "file://../zookeeper"
   condition: zookeeper.enabled
-- name: mysqlha
-  version: 1.0.0
-  repository: "file://../mysqlha"
+- name: mysql
+  version: 1.4.0
+  repository: https://kubernetes-charts.storage.googleapis.com/
   condition: mysql.enabled
